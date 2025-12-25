@@ -1,6 +1,9 @@
 import React, { useState, createContext, useContext } from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
-import { Truck, Users, Calendar, ChevronDown, ChevronUp, Search, Bell, Settings, BarChart3, Shield, Fuel, Clock, MapPin, AlertTriangle, CheckCircle, X, Building2, FileText, Activity, TrendingUp, LayoutDashboard, Route, Video, Wrench, FileCheck, MessageSquare, HelpCircle, User, ChevronRight, Filter, MoreHorizontal, ArrowUpDown, Plus, Check, GripVertical, Download, Layers, Table, Hash, ClipboardCheck, Play, Eye, Share2, Lock, Globe } from 'lucide-react';
+import { Truck, Users, Calendar, ChevronDown, ChevronUp, Search, Bell, Settings, BarChart3, Shield, Fuel, Clock, MapPin, AlertTriangle, CheckCircle, X, Building2, FileText, Activity, TrendingUp, LayoutDashboard, Navigation, Video, Wrench, FileCheck, MessageSquare, HelpCircle, User, ChevronRight, Filter, MoreHorizontal, ArrowUpDown, Plus, Check, GripVertical, Download, Layers, Table, Hash, ClipboardCheck, Play, Eye, Share2, Lock, Globe } from 'lucide-react';
+
+// Alias for Route (not exported from lucide-react)
+const Route = Navigation;
 
 // ============================================
 // MOCK DATA FOR ALL DATASETS
